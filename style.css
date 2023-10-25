@@ -1,0 +1,178 @@
+html {
+
+    scroll-behavior: smooth; /*Smooth scrolling*/
+
+}
+
+body {
+
+    font-size: 125%;
+
+}
+
+nav {
+
+    position: sticky; /*Makes sure that the navbar is visible at all times, even when scrolling*/
+    top: 0; /*So that the navbar sticks perfectly to the top while scrolling down*/
+    background-color: #333;
+
+}
+
+ul {
+
+    list-style-type: none; /*Removes the bullet points*/
+    margin: 0; /*Removes all gaps between elements*/
+    padding: 0; /*Removes the inner-padding of the elements*/
+    overflow: hidden; /*I honestly don't know why it's here but when you remove it, the navbar disappears so just keep it*/
+
+}
+  
+li {
+
+    float: left; /*So that all the elements are on the left*/
+    border-right: 1px solid white; /*1px border on the right side of each element*/
+
+}
+
+li:last-child {
+
+    float: right;
+
+}
+  
+li a {
+
+    display: inline-block; /*Places the elements side-by-side while still being able to style some of their other properties*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*Removes the underline on the links*/
+
+}
+  
+li a:hover {
+
+    background-color: #111;
+    text-decoration: underline; /*Re-adds the underline when you hover over the link*/
+
+}
+
+li a:active, li a:focus {
+
+    background: rgb(45, 174, 45);
+
+}
+
+#half {
+
+    width: 65%;
+    display: inline-block;
+
+}
+
+#homeimg {
+
+    float: right;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #575151
+
+}
+
+#home {
+
+    border: 3.5px ridge grey;
+    margin-top: 25px;
+    padding: 10px 15px;
+    border-radius: 35px;
+    background: linear-gradient(rgb(255, 237, 103), rgb(218, 160, 14));
+
+}
+
+#images {
+
+    padding: 10px 15px;
+    border: 3.5px ridge grey;
+    margin-top: 25px;
+    padding: 10px 15px;
+    border-radius: 35px;
+    background: linear-gradient(rgb(255, 237, 103), rgb(218, 160, 14));
+    
+}
+
+.imgsimg {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #575151
+
+}
+
+.imgsimg:not(:last-child) {
+
+    margin-right: 40px;
+
+}
+
+#pricing {
+
+    padding: 10px 15px;
+    border: 3.5px ridge grey;
+    padding: 10px 15px;
+    border-radius: 35px;
+    background: linear-gradient(rgb(255, 237, 103), rgb(218, 160, 14));
+    width: 50%;
+    margin: 25px auto 0; 
+
+}
+
+#pricingimg {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px #575151  
+
+}
+
+#pricetag {
+
+    border: 2px solid black;
+    width: 20%;
+    border-radius: 50px;
+    background: linear-gradient(green, limegreen);
+    color: white;
+    box-shadow: 5px 5px 10px #575151;
+    line-height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#contact {
+
+    padding: 20px 35px;
+    border: 3.5px ridge grey;
+    margin-top: 25px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(255, 237, 103), rgb(218, 160, 14));    
+
+}
+
+#contact a {
+
+    text-decoration: none;
+
+}
+
+#contact a:hover {
+
+    text-decoration: underline;
+
+}
+
+i:last-child {
+
+    width: 40px;
+
+}
